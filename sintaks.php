@@ -9,10 +9,10 @@
 // print_r untuk array
 // var_dum untuk melihat isi variabel
 
-print("Rizkulloh Alpriyansah\n");
-print_r("Rizkulloh Alpriyansah\n");
-var_dump("Rizkulloh Alpriyansah\n");
-echo "Rizkulloh Alpriyansah";
+print("Rizkulloh Alpriyansah<br>");
+print_r("Rizkulloh Alpriyansah<br>");
+var_dump("Rizkulloh Alpriyansah<br>");
+echo "Rizkulloh Alpriyansah<br>";
 
 // Penulisan Sintaks PHP
 // 1.PHP di dalam HTML
@@ -20,7 +20,7 @@ echo "Rizkulloh Alpriyansah";
 // Variable dan Tipe Data
 // Variable
 // Tidak boleh di awali dengan angka tapi boleh mengandung angka
-$nama = "Rizkulloh Alpriyansah";
+$nama = "Rizkulloh Alpriyansah<br>";
 
 // Operator
 // aritmatika
@@ -35,6 +35,8 @@ $nama_depan = "Rizkulloh";
 $nama_belakang = "Alpriyansah";
 echo $nama_depan . "" . $nama_belakang;
 
+
+echo "<br>";
 // Assignment
 // =, +=, -=, *=, /=, %=, .=
 $s = 2;
