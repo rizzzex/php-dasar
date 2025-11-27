@@ -22,3 +22,10 @@ while ($i < 5) {
 do {
     echo "ini do while <br>";
 } while ($i < 5);
+
+// Array dengan indeks numerik
+$buah = array("Apel", "Pisang", "Jeruk", "Mangga");
+
+foreach ($buah as $item) {
+    echo "Buah: " . $item . "<br>";
+}
